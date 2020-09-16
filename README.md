@@ -4,11 +4,14 @@ In this repo, assume that each package is actually a separate project. They are 
 
 Run commands: 
 
+```
 npm i
 npm run extract 
 npm run preview
+```
 
 Open browser: 
+
 http://localhost:6001
 
 Expected behavior
@@ -18,6 +21,8 @@ Actual behavior:
 As I move across storybooks, only the master storybook addons are available in all storybooks. 
 
 System:
+
+```
 OS: macOS 10.15.6
 CPU: (6) x64 Intel(R) Core(TM) i5-8500B CPU @ 3.00GHz
 Binaries:
@@ -28,6 +33,7 @@ Browsers:
 Chrome: 85.0.4183.102
 Firefox: 80.0
 Safari: 13.1.2
+```
 
 Additional context
 Add any other context about the problem here.
