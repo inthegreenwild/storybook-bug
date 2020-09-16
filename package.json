@@ -1,0 +1,17 @@
+{
+  "name": "compose-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "lerna bootstrap",
+    "extract": "lerna run sb-extract --parallel --stream",
+    "preview": "lerna run sb-public --parallel"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^0.12.3",
+    "lerna": "^3.22.1"
+  }
+}

@@ -1,0 +1,5 @@
+node_modules
+.DS_Store
+storybook-static
+package-lock.json
+yarn.lock
